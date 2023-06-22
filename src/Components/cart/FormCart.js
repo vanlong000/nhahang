@@ -145,7 +145,7 @@ const initialValues = {
                 <div className="cart-pay">
 
                     <div className="title">
-                        <h4> don hang</h4>
+                        <h4> Đơn Hàng</h4>
                         <div onClick={()=>{ setOpen(!open) }}> X </div>
                     </div>
                     <div className="main-tab">
