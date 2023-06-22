@@ -91,7 +91,7 @@ const initialValues = {
             <ErrorMessage name="email" component="div" />
           </div>
           <div className="col-12 field-input">
-            <label htmlFor="diachi">địa chi:</label>
+            <label htmlFor="diachi">Địa chi:</label>
             <Field required type="text" id="diachi" name="diachi" />
             <ErrorMessage name="diachi" component="div" />
           </div>
@@ -119,9 +119,9 @@ const initialValues = {
           </div>
 
             <div className="field-input">
-            <label htmlFor="gio">gio:</label>
+            <label htmlFor="gio">Giờ:</label>
             <Field  required as="select" id="gio" name="gio">
-            <option defaultValue={"default"}>gio</option>
+            <option defaultValue={"default"}>Giờ</option>
             {
                                 [...Array(24).keys()].map((i) => {
                                     if (7 <= i && i <= 21) {
@@ -138,7 +138,7 @@ const initialValues = {
             </div>
             </div>
       
-          <button  onClick={()=>{ setOpen(!open)  }} >đặt đơn</button>
+          <button  onClick={()=>{ setOpen(!open)  }} >Đặt Đơn</button>
           {open &&  <div className="shadow"></div>}
             {open && (
 
