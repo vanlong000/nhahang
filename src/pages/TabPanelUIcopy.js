@@ -38,7 +38,7 @@ function TabPanelUIcopy({listcategory}) {
                                         <ul class="filters">
                                             <div class="filter-active"></div>
                                             <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner">
-                                                <div className=''><h2 className='Menu-nha-hang'>Thực Đơn Nhà Hàng</h2>
+                                                <div className=''style={{width:1520}}><h2 className='Menu-nha-hang'>Thực Đơn Nhà Hàng</h2>
                                                 <TabList  onChange={handleChange}>
                                                 {listcategory && listcategory.map((cate,index)=>{
                                                 return <Tab  onClick={() => {
